@@ -12,7 +12,7 @@ public class kadanealgo {
             }
 
             if (currSum < 0) {
-                currSum = 0;   // reset
+                currSum = 0;   
             }
         }
 
@@ -20,7 +20,7 @@ public class kadanealgo {
     }
 
     public static void main(String args[]) {
-        int arr[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
+        int arr[] = { 8,-9,-1,3,5};
         kadane(arr);
     }
 }
