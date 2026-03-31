@@ -15,10 +15,9 @@ public class sumsubarray
             {
                 sum=0;
                 int end =j;
-                for(int k=start;k<=end;k++)
-                {
-                  sum+=arr[k];
-                }
+               
+                  sum+=arr[j];
+                
                 if(sum<min)
                 {
                     min=sum;
