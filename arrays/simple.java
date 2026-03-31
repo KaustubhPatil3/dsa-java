@@ -4,7 +4,7 @@ public class simple
 {
      public static void update(int arr[])
         {
-            int sum=0;
+            
             for(int i=0;i<arr.length;i++)
             {
                  arr[i] = arr[i]+1;
