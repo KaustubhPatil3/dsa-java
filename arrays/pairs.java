@@ -12,8 +12,9 @@ public class pairs
             {
                 System.out.print("("+current+","+arr[j]+")");
             }
+            System.out.println();
         }   
-        System.out.println("");
+        
         
     }
     public static void main(String args[])    
