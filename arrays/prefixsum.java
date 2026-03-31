@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class prefixmaxsubarray
+public class prefixsum
 {
     public static void sub(int arr[])
     {
