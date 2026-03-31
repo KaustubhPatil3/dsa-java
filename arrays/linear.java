@@ -1,4 +1,4 @@
-//Linear search
+//Linear search.
 import java.util.*;
 
 public class linear 
