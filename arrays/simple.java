@@ -1,3 +1,4 @@
+//Pass by reference
 import java.util.*;
 
 public class simple
