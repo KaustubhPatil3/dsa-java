@@ -1,4 +1,4 @@
-public class X^n {
+public class Power {
 
     public static int power(int x, int n) {
         if (n == 0)   // base case
