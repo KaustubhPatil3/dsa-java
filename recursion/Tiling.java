@@ -1,6 +1,5 @@
 public class Tiling 
 {
-
     public static int ways(int n) 
     {
       
