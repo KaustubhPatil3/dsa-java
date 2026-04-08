@@ -1,7 +1,9 @@
 public class NQueens
 {
+    public static int count=0;
     public static boolean isSafe(char c[][],int row,int col)
     {
+       
         //vertical
         for(int i=row-1;i>=0;i--)
         {
@@ -28,9 +30,12 @@ public class NQueens
 
     public static void find(char c[][],int row)
     {
+        
+
         if(row==c.length)
         {
             printBoard(c);
+            
             return;
         }
 
@@ -43,6 +48,7 @@ public class NQueens
                 c[row][j]='X';
             }           
         }
+        
     }
 
     public static void printBoard(char c[][])
@@ -56,11 +62,13 @@ public class NQueens
             }
             System.out.println("");
         }
+        count=count+1;
+
     }
 
     public static void main(String args[])
     {
-        int n=2;
+        int n=4;
         char Q[][]=new char[n][n];
         for (int i =0;i<n;i++)
         {
@@ -70,6 +78,7 @@ public class NQueens
             }
         }
         find(Q,0);
+        System.out.println("Total count of possible ways "+count);
     }
     
 }
