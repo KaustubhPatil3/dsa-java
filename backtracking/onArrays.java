@@ -1,4 +1,4 @@
-public class onArrays
+public class OnArrays
 {
     public static void changeArr(int arr[],int i,int val)
     {
