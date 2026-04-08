@@ -22,7 +22,6 @@ public class NQueenOneSolution
             if(c[i][j]=='Q')
                 return false;
         }
-
         return true;
     }
 
