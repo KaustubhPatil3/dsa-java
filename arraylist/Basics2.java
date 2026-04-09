@@ -3,7 +3,7 @@ import java.util.*;
 public class Basics2 {
     public static void main(String args[]) {
 
-        // Create ArrayList
+        
         ArrayList<Integer> list = new ArrayList<>();
 
         // Add elements
