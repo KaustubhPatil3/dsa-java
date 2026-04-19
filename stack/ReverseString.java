@@ -31,7 +31,8 @@ public class ReverseString {
         return cleaned.equals(reversedStr);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
         System.out.println("--- Reverse Strings ---");
         String str = "hello";
