@@ -62,7 +62,7 @@ public class StackIntro
 
     public static void main(String[] args) 
     {
-        // Push elements
+       
         push(10);
         push(20);
         push(30);
@@ -84,7 +84,5 @@ public class StackIntro
 
         System.out.println();
        
-        pop(); pop(); pop();
-        pop(); 
     }
 }
