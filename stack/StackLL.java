@@ -77,7 +77,6 @@ public class StackLL {
 
         System.out.println();
         
-        pop(); pop(); pop();
-        pop(); 
+        
     }
 }
