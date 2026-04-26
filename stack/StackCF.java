@@ -32,23 +32,7 @@ public class StackCF {
         System.out.println("Is stack empty? " + s.isEmpty());
 
         
-        System.out.println("\n--- Popping Elements ---");
-        System.out.println("Popped: " + s.pop());
-        System.out.println("Popped: " + s.pop());
-        System.out.println("Stack after 2 pops: " + s);
-
         
-        System.out.println("\n--- Popping All Remaining ---");
-        while (!s.isEmpty()) {
-            System.out.println("Popped: " + s.pop());
-        }
-
-        
-        System.out.println("\n--- Pop on Empty Stack ---");
-        try {
-            s.pop();
-        } catch (EmptyStackException e) {
-            System.out.println("Exception caught: EmptyStackException - Stack is empty");
-        }
+     
     }
 }
