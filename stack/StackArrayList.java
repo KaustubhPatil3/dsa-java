@@ -47,13 +47,11 @@ public class StackArrayList {
     }
 
     public static void main(String[] args) {
-        // Push elements
+       
         push(10);
         push(20);
         push(30);
-        push(40);
-        push(50);
-
+        
         System.out.println();
         display();
 
@@ -68,7 +66,6 @@ public class StackArrayList {
 
         System.out.println();
       
-        pop(); pop(); pop();
-        pop(); // Should trigger underflow
+        
     }
 }
