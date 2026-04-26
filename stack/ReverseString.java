@@ -39,28 +39,11 @@ public class ReverseString {
         System.out.println("Original : " + str);
         System.out.println("Reversed : " + reverse(str));
 
-        System.out.println();
-        String str2 = "Java Stack";
-        System.out.println("Original : " + str2);
-        System.out.println("Reversed : " + reverse(str2));
-
+       
         System.out.println();
         String str3 = "12345";
         System.out.println("Original : " + str3);
-        System.out.println("Reversed : " + reverse(str3));
+        System.out.println("Reversed : " + reverse(str3));        
 
-        
-        System.out.println("\n--- Edge Cases ---");
-        System.out.println("Empty string  : \"" + reverse("") + "\"");
-        System.out.println("Single char   : \"" + reverse("A") + "\"");
-        System.out.println("Spaces        : \"" + reverse("a b c") + "\"");
-        System.out.println("Special chars : \"" + reverse("h@e#l!l^o") + "\"");
-
-        
-        System.out.println("\n--- Palindrome Check ---");
-        String[] tests = {"racecar", "hello", "Madam", "A man a plan a canal Panama", "12321", "12345"};
-        for (String test : tests) {
-            System.out.printf("%-35s -> %s%n", "\"" + test + "\"", isPalindrome(test) ? "Palindrome" : "Not a Palindrome ");
-        }
     }
 }
