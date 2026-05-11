@@ -43,14 +43,14 @@ public class CircularQueue
         cq.enqueue(20);
         cq.enqueue(30);
 
-        System.out.println(cq.enqueue(40));  // false - full
-        System.out.println(cq.dequeue());    // 10
+        System.out.println(cq.enqueue(40)); 
+        System.out.println(cq.dequeue());  
         cq.enqueue(40);
         
         while (!cq.isEmpty()) {
-            System.out.println(cq.dequeue()); // 20 30 40
+            System.out.println(cq.dequeue());
         }
 
-        System.out.println(cq.dequeue());    // -1 - empty
+        System.out.println(cq.dequeue());    
     }
 }
