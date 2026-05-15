@@ -4,13 +4,13 @@ public class FirstNonRepeating {
     public static void main(String[] args) {
         String str = "aabbcdeeff";
         Queue<Character> q = new LinkedList<>();
-        HashMap<Character, Integer> map = new HashMap<>();
+        int[] freq = new int[26];
 
         for (char ch : str.toCharArray()) {
-            map.put(ch, map.getOrDefault(ch, 0) + 1);
+            freq[ch - 'a']++;
             q.add(ch);
 
-            while (!q.isEmpty() && map.get(q.peek()) > 1) {
+            while (!q.isEmpty() && freq[q.peek() - 'a'] > 1) {
                 q.poll();
             }
 
