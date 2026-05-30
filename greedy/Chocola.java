@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class Chocola {
+public class Chocola 
+{
     
     public static int minCost(int[] horizontal, int[] vertical)
     {
