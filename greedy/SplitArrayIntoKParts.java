@@ -34,5 +34,7 @@ class SplitArrayIntoKParts
 
         SplitArrayIntoKParts obj = new SplitArrayIntoKParts();
         obj.splitArray(arr, n, k);
+        
+        sc.close();
     }
 }
