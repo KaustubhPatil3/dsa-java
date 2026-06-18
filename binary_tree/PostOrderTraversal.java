@@ -1,4 +1,4 @@
-public class PostorderTraversal {
+public class PostOrderTraversal {
 
     static class Node {
         int data;
