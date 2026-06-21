@@ -1,4 +1,5 @@
-public class CountOfNodes {
+public class CountOfNodes 
+{
 
     static class Node {
         int data;
