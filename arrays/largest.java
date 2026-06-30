@@ -1,26 +1,22 @@
-import java.util.*;
-
-public class largest
+public class Largest 
 {
-    public static int big(int num[])
+    public static int large(int arr[])
     {
-        int large = Integer.MIN_VALUE;
-        for (int i=0;i<num.length;i++)
+        int l = Integer.MIN_VALUE;
+
+        for (int i=0;i<arr.length;i++)
         {
-            if(large<num[i])
-            {
-               large=num[i];
-            }
+            if(arr[i]>l)
+                l=arr[i];
         }
-        return large;
-    }
-    public static void main(String args[])
+        return l;
+    }   
+    public static void main(String s[])
     {
-        int num[]={1,2,9,5,6,8};
+        int arr[]={1,2,64,6,20};
+        int l=large(arr);
 
-        int l=big(num);
+        System.out.println(l);
 
-        System.out.println("Largest number ="+l);
     }
-    
 }
