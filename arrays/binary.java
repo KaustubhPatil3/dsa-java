@@ -1,9 +1,8 @@
-//Binary search
-import java.util.*;
+
 
 public class binary
 {
-    public static int binary(int arr[],int key)
+    public static int search(int arr[],int key)
     {
         int start=0,end=arr.length-1;
         while (start<=end) 
@@ -29,7 +28,7 @@ public class binary
     {
         int arr[]={10,12,14,18,22};
         int key=14;
-        int i=binary(arr,key);
+        int i=search(arr,key);
         if(i==-1)
         {
             System.out.println("not found");
