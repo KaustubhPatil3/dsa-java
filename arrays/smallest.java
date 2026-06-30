@@ -1,26 +1,20 @@
-import java.util.*;
-
-public class smallest
+public class Smallest
 {
-    public static int chota(int num[])
+    public static int chota (int arr[])
     {
-        int small = Integer.MAX_VALUE;
-        for (int i=0;i<num.length;i++)
+        int s=Integer.MAX_VALUE;
+        for(int i=0;i<arr.length;i++)
         {
-            if(small>num[i])
-            {
-               small=num[i];
-            }
+            if(arr[i]<s)
+                s=arr[i];
         }
-        return small;
+        return s;
     }
-    public static void main(String args[])
+
+    public static void main(String s[])
     {
-        int num[]={10,2,9,5,6,8};
-
-        int l=chota(num);
-
-        System.out.println("Smallest number ="+l);
+        int arr[]={1,3,4,7,2,9};
+        int k=chota(arr);
+        System.out.println(k);
     }
-    
 }
