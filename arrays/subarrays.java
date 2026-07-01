@@ -1,31 +1,28 @@
-import java.util.*;
-
-public class subarrays 
+public class Subarrays
 {
     public static void sub(int arr[])
     {
-        int ts=0;
         for(int i=0;i<arr.length;i++)
         {
-            int start=i; 
+            int start=i;
             for(int j=i;j<arr.length;j++)
             {
-                int end =j;
+                int end=j;
+
                 for(int k=start;k<=end;k++)
                 {
-                  System.out.print(arr[k]+" ");
-                  ts++;
+                    System.out.print(arr[k]+" ");
                 }
-                System.out.println();
+                 System.out.println("");
             }
-            System.out.println();
-        }      
-        System.out.println("total subarrays: "+ts);
+          
+        }
+        
     }
-    public static void main(String args[])    
-    {
-        int num[]={2,3,4,5,6};
 
-        sub(num);
+    public static void main(String s[])
+    {
+        int arr[]={1,2,3,4};
+        sub(arr);
     }
 }
