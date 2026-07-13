@@ -1,1 +1,1 @@
-Ab Tayari Ho Gayi H.
+Kal se.
