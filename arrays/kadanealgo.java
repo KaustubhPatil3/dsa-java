@@ -1,4 +1,4 @@
-public class kadanealgo {
+public class Kadanealgo {
 
     public static void kadane(int arr[]) {
         int maxSum = Integer.MIN_VALUE;
