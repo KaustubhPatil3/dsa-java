@@ -1,7 +1,8 @@
 public class Kadanealgo 
 {
 
-    public static void kadane(int arr[]) {
+    public static void kadane(int arr[]) 
+    {
         int maxSum = Integer.MIN_VALUE;
         int currSum = 0;
 
