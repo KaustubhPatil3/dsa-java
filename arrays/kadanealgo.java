@@ -10,7 +10,8 @@ public class Kadanealgo
         {
             currSum += arr[i];
 
-            if (currSum > maxSum) {
+            if (currSum > maxSum) 
+            {
                 maxSum = currSum;
             }
 
