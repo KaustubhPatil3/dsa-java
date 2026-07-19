@@ -15,7 +15,8 @@ public class Kadanealgo
                 maxSum = currSum;
             }
 
-            if (currSum < 0) {
+            if (currSum < 0)
+            {
                 currSum = 0;   
             }
         }
