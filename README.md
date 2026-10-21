@@ -1,2 +1,1 @@
-Holidays Ending.
-Winter is Coming
+Tommorow.
